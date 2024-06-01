@@ -8,6 +8,7 @@ import PetModal from "../modal/PetModal";
 import Pagination from "../pagination/Pagination";
 
 function PetList() {
+  const [animals, setAnimals] = useState([]);
   const [filteredAnimals, setFilteredAnimals] = useState([]);
   const [selectedAnimal, setSelectedAnimal] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,12 +18,17 @@ function PetList() {
 
   useEffect(() => {
     getAnimals(animalType);
-  }, [animalType, currentPage]);
+  }, [animalType]);
+
+  useEffect(() => {
+    paginate(1); 
+  }, [filteredAnimals]);
 
   const getAnimals = async (type) => {
     try {
       const animals = await getAnimalsApi(type);
-      setFilteredAnimals(animals);
+      setAnimals(animals);
+      setFilteredAnimals(animals); 
     } catch (error) {
       console.error("Error fetching animals:", error);
       throw error;
@@ -53,7 +59,7 @@ function PetList() {
   return (
     <div>
       <SearchBar
-        filteredAnimals={filteredAnimals}
+        filteredAnimals={animals}
         setFilteredAnimals={setFilteredAnimals}
       />
       <ul id="animals-list">
