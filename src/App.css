@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.app-container {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+

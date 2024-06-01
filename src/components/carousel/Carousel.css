@@ -1,0 +1,12 @@
+.carousel {
+  background-color: #343a40; 
+}
+
+.carousel-item {
+  color: #f8f9fa;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}

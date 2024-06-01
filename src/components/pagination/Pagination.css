@@ -1,0 +1,21 @@
+.pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    color: #343a40; 
+  }
+  
+  .pagination .page-link:hover {
+    color: #007bff;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
+  
+  .pagination .page-item.disabled .page-link {
+    opacity: 0.5; 
+  }
+  

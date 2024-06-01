@@ -1,0 +1,22 @@
+#animals-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 3rem;
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+.no-results {
+  margin: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #999; 
+}
+
+  

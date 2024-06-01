@@ -1,0 +1,34 @@
+.custom-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-modal .modal-content {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.custom-modal .modal-header {
+  border-bottom: 1px solid #6c757d; 
+}
+
+.custom-modal .modal-title {
+  color: #f8f9fa; 
+}
+
+.custom-modal .modal-body {
+  padding: 20px;
+}
+
+.custom-modal .modal-footer {
+  border-top: 1px solid #6c757d;
+}
+
+.custom-modal .btn-secondary {
+  background-color: #6c757d; 
+  color: #f8f9fa;
+}
+
+.custom-modal .btn-secondary:hover {
+  background-color: #adb5bd;
+}
