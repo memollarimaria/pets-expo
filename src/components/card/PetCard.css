@@ -1,5 +1,6 @@
 .pet-card {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .animal-item {

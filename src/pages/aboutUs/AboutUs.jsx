@@ -4,7 +4,7 @@ import "./AboutUs.css";
 function AboutUs() {
   return (
     <div className="about-us">
-      <h2>About Us</h2>
+      <h2 className="about-us-title">About Us</h2>
       <p>
         Pet Expo is a platform dedicated to pet lovers, providing information
         and resources for all types of pets.

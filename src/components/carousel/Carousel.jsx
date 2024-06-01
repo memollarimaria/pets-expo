@@ -9,6 +9,7 @@ function Carousel({ items, carouselId }) {
         {items.map((item, index) => (
           <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={item.id}>
             <CarouselItem item={item} />
+            <h5 className='caption'>{item.name}</h5>
           </div>
         ))}
       </div>

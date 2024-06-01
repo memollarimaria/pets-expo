@@ -14,15 +14,12 @@ function Homepage() {
     const fetchData = async () => {
       try {
         const dogsData = await getAnimalsApi("dogs");
-        console.log("Dogs Data:", dogsData);
         setDogs(Object.values(dogsData));
 
         const catsData = await getAnimalsApi("cats");
-        console.log("Cats Data:", catsData);
         setCats(Object.values(catsData));
 
         const birdsData = await getAnimalsApi("birds");
-        console.log("Birds Data:", birdsData);
         setBirds(Object.values(birdsData));
       } catch (error) {
         console.error("Error fetching animal data:", error);

@@ -1,43 +1,48 @@
+.contact-us {
+  font-size: x-large;
+}
+.contact-us-title {
+  justify-content: center;
+  display: flex;
+}
 
-  
-  .contact-us h2 {
-    color: #fff; 
-    margin: 40px 0 20px 0;
-  }
-  
-  .contact-us p {
-    margin-bottom: 10px;
-  }
-  
-  .contact-us .contact-info {
-    margin-bottom: 20px;
-  }
-  
-  .contact-us .contact-form {
-    margin-top: 20px;
-  }
-  
-  .contact-us .contact-form h3 {
-    margin-bottom: 10px;
-  }
-  
-  .contact-us .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .contact-us .form-control {
-    width: 100%;
-  }
-  
-  .contact-us button {
-    background-color: #007bff; 
-    color: #fff; 
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .contact-us button:hover {
-    background-color: #0056b3; 
-  }
-  
+.contact-us h2 {
+  color: #fff;
+  margin: 40px 0 20px 0;
+}
+
+.contact-us p {
+  margin-bottom: 10px;
+}
+
+.contact-us .contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-us .contact-form {
+  margin-top: 20px;
+}
+
+.contact-us .contact-form h3 {
+  margin-bottom: 10px;
+}
+
+.contact-us .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-us .form-control {
+  width: 100%;
+}
+
+.contact-us button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.contact-us button:hover {
+  background-color: #0056b3;
+}
